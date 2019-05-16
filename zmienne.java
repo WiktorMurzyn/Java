@@ -1,16 +1,15 @@
 public class zmienne {
-    public static void main(String[] args)
-    {
-        String firstName = "Jan";
-        String lastName = "Kowalski";
-        int age = 25;
-        double height = 180;
-        String pesel = "1234567890";
 
+    public static void main(String[] args) {
+        String marka = "Honda";
+        String model = "Civic";
+        int rocznik = 2018;
+        double cena = 120000.0;
 
-        System.out.println(firstName + " " + lastName + " ma " + age + " lat");
-        System.out.println("Jan " + lastName + " ma pesel " + pesel);
-        System.out.println("Jan ma wzrost " + height);
-        System.out.println("Jeżeli Jan urośnie o 5cm, to będzie mia ł" + (height + 5) + "cm");
+        System.out.println("Wybrany samochud to "+ marka);
+        System.out.println("Model wybranego samochuodu to "+ model);
+        System.out.println("Rocznik samochodu to "+ rocznik);
+        System.out.println("Cena samochodu to "+ cena);
+
     }
 }
